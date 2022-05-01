@@ -1,0 +1,68 @@
+<div class="bg-white p-4 mb-3">
+    <h5>是非題(4分)</h5>
+    <div *ngFor="let tfq of TFQ;let num=index">
+        <div style="background-color: rgb(165, 206, 162);" class="p-3 my-3 form-group">
+            <h6 class="font-weight-bolder text-justify" style="line-height: 24px;">{{num+1}}.{{tfq.question}}</h6>
+            <div *ngIf="send==false">
+                <label *ngFor="let options of tfq.options" class="w-100 btn btn-green"
+                    [ngClass]="options.description==TFQ_U[num]?'active':''">
+                    <input type="radio" name="m{{num}}" value="{{options.description}}" [(ngModel)]="TFQ_U[num]"
+                        class="btn btn-green">&ensp;
+                        <span *ngIf="options.description=='true'"><i class="far fa-circle"></i></span>
+                        <span *ngIf="options.description=='false'"><i class="fas fa-times"></i></span>
+                </label>
+            </div>
+            <div *ngIf="send==true">
+                <label  class="w-100" >
+                    <button type="button" class="btn btn-block" style="background-color: white;">
+                        <span *ngIf="TFQ_S[num]=='true'"><i class="far fa-circle"></i></span>
+                        <span *ngIf="TFQ_S[num]=='false'"><i class="fas fa-times"></i></span>
+                    </button>
+                    <h6 class="text-muted font-weight-bolder mt-2">
+                        <span class="text-success font-weight-bolder" *ngIf="TF_Mistake[num]==true"><i class="fas fa-check"></i></span>
+                        <span class="text-danger font-weight-bolder" *ngIf="TF_Mistake[num]==false"><i class="fas fa-times"></i></span>
+                        您的答案：
+                        <span *ngIf="TFQ_U[num]=='true'"><i class="far fa-circle"></i></span>
+                        <span *ngIf="TFQ_U[num]=='false'"><i class="fas fa-times"></i></span>
+                    </h6>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white p-4">
+    <h5>選擇題(4分)</h5>
+    <div *ngFor="let mcq of MCQ;let num=index">
+        <div style="background-color: rgb(165, 206, 162);" class="p-3 my-3 form-group">
+            <h6 class="font-weight-bolder text-justify" style="line-height: 24px;">{{num+1}}.{{mcq.question}}</h6>
+            <div *ngIf="send==false">
+                <label *ngFor="let options of mcq.options" class="w-100 btn btn-green"
+                    [ngClass]="options.description==MCANS_U[num]?'active':''">
+                    <input type="radio" name="m{{num}}" value="{{options.description}}" [(ngModel)]="MCANS_U[num]"
+                        class="btn btn-green">&ensp;{{options.description}}
+                </label>
+            </div>
+            <div *ngIf="send==true">
+                <label  class="w-100" >
+                    <button type="button" class="btn btn-block" style="background-color: white;">{{MCANS_S[num]}}</button>
+                    <h6 class="text-muted font-weight-bolder mt-2">
+                        <span class="text-success font-weight-bolder" *ngIf="MC_Mistake[num]==true"><i class="fas fa-check"></i></span>
+                        <span class="text-danger font-weight-bolder" *ngIf="MC_Mistake[num]==false"><i class="fas fa-times"></i></span>
+                        您的答案：{{MCANS_U[num]}}
+                    </h6>
+                </label>
+            </div>
+        </div>
+    </div>
+    <p class="text-danger font-weight-bolder text-center" *ngIf="MCANS_U.indexOf('')!=-1||TFQ_U.indexOf('')!=-1">**尚有未完成作答題目**</p>
+    <button type="submit" class="btn btn-success btn-block" (click)="submit_ans()"
+        [ngClass]="MCANS_U.indexOf('')!=-1||TFQ_U.indexOf('')!=-1?'disabled':''">送出考券</button>
+</div>
+
+<div style="position:fixed;right: 5px;bottom: 15px;">
+    <button type="button" class="btn rounded-circle" style="background-color: rgba(0, 0, 0, 0.363);color: white;"
+        (click)="scrollTotop()"><i class="fas fa-arrow-up"></i></button><br>
+    <button type="button" class="btn mt-2 rounded-circle" style="background-color: rgba(0, 0, 0, 0.363);color: white;"
+        (click)="scrollTobottom()"><i class="fas fa-arrow-down"></i></button>
+</div>
