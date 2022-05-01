@@ -57,7 +57,7 @@
     </div>
     <p class="text-danger font-weight-bolder text-center" *ngIf="MCANS_U.indexOf('')!=-1||TFQ_U.indexOf('')!=-1">**尚有未完成作答題目**</p>
     <button type="submit" class="btn btn-success btn-block" (click)="submit_ans()"
-        [ngClass]="MCANS_U.indexOf('')!=-1||TFQ_U.indexOf('')!=-1?'disabled':''">送出考券</button>
+        [ngClass]="MCANS_U.indexOf('')!=-1||TFQ_U.indexOf('')!=-1?'d-none':''" *ngIf="send!=true">送出考券</button>
 </div>
 
 <div style="position:fixed;right: 5px;bottom: 15px;">
