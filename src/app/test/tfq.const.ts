@@ -12,18 +12,6 @@ export const TFQ =[
         ]
     },
     {
-        "question": "柏拉圖常用來表現問題點，並呈現其相對重要性來提供改善方向的優先順序。",
-        "ans": "true",
-        "options": [
-            {
-                "description": "true"
-            },
-            {
-                "description": "false"
-            }
-        ]
-    },
-    {
         "question": "靜電防護步驟為：不產生、不累積、不瞬間放電，以及生產機台環境內不要有帶電的電場。",
         "ans": "true",
         "options": [
@@ -85,18 +73,6 @@ export const TFQ =[
     },
     {
         "question": "日月光高雄廠機密資訊等級中，研發項目技術資訊為Confidential C。",
-        "ans": "false",
-        "options": [
-            {
-                "description": "true"
-            },
-            {
-                "description": "false"
-            }
-        ]
-    },
-    {
-        "question": "同一份TECN最多可延用三次",
         "ans": "false",
         "options": [
             {
@@ -506,6 +482,246 @@ export const TFQ =[
     {
         "question": "平均值與全距管制圖(X-R chart)是屬於計量管制圖",
         "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "提案申請者之職等無限制",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "提案獎金發放原則必須是「結案」之提案狀態",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "ASE向關務署取得AEO優質企業認證",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "查詢進貨的關鍵密碼為：MAWB、HAWB、PO#",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "JXT主席是由製造部廠長所擔任，而CCB主席是由PE工程處處長所擔任",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "Class1等級之變更處理要求定義為在變更實施前，須知會客戶並取得其書面核准方可實施之變更?",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "正常情況下Class2(Major change)應於實施前30天通知客戶",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "車用產品變更指導原則項目涵蓋ZEVI條文加上ASE內部製程專家決議採行的項目(以黃底標示)",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "有關車用產品功能安全相關的變更項目，一律判定為有「供應鏈的殘留風險」變更等級為1",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "風險定義依一般產品與車用產品有所不同，車用產品風險等級是以高/中/低來定義，其中變更本質會造成產品品質及可靠度嚴重顧慮為高風險",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "若客戶特殊需求已定義於文件中，須優先考量客戶特殊需求進行作業",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "有一材料其表面電阻值界於10^5Ω~10^9Ω之間，則該材料可視為消散性材質",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "不得以手(未戴抗靜電手套及手環)直接碰觸產品，若使用工具(鑷子、吸筆)接觸產品，該工具必須為認可之消散性材質工具",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "ISO9001是品質管理系統標準",
+        "ans": "true",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "建立品質管理系統是為了取得證書，拿到證書後不用再遵循其相關要求",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "稽核是品質系統處(QS)負責的工作，我不是QS人員，因此稽核與我無關",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "品管圖是企業由上而下推廣的品質活動",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "COP流程代表「管理流程」",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "ASE的ISO9001證書是ISO9001:2008版",
+        "ans": "false",
+        "options": [
+            {
+                "description": "true"
+            },
+            {
+                "description": "false"
+            }
+        ]
+    },
+    {
+        "question": "稽核準備是工程師的事，現場作業人員不必準備及陪稽",
+        "ans": "false",
         "options": [
             {
                 "description": "true"
