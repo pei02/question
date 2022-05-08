@@ -846,21 +846,6 @@ export const MCQ =  [
         ]
     },
     {
-        "question": "同時發生製程問題(Day One)與異常問題(Excursion)時，應該優先改善哪一項問題?",
-        "ans": "異常問題(Excursion)",
-        "options": [
-            {
-                "description": "都很重要需同時處理"
-            },
-            {
-                "description": "製程問題(Day One)"
-            },
-            {
-                "description": "異常問題(Excursion)"
-            }
-        ]
-    },
-    {
         "question": "8D的問題要如何描述才清楚呢?",
         "ans": "以上皆是",
         "options": [
@@ -976,7 +961,7 @@ export const MCQ =  [
         "ans": "材料特性相聚越遠，摩擦產生的靜電越大",
         "options": [
             {
-                "description": "材料特性相聚越遠，摩擦產生的靜電越大"
+                "description": "材料特性相距越遠，摩擦產生的靜電越大"
             },
             {
                 "description": "材料特性相距越遠，摩擦產生的靜電越小"
@@ -1027,7 +1012,7 @@ export const MCQ =  [
     },
     {
         "question": "品質管理系統架構中，其流程種類包含",
-        "ans": "",
+        "ans": "以上皆是",
         "options": [
             {
                 "description": "MP"

@@ -1,0 +1,111 @@
+.btn-orange {
+    color: #fff;
+    background-color: #cacaca;
+    border-color: #cacaca;
+  }
+  
+  .btn-orange:hover {
+    color: #fff;
+    background-color: #ff7b00;
+    border-color: #ff7b00;
+  }
+  
+  .btn-orange:focus,
+  .btn-orange.focus {
+    color: #fff;
+    background-color: #ff7b00;
+    border-color: #ff7b00;
+    box-shadow: 0 0 0 0.2rem #ff7b00;
+  }
+  
+  .btn-orange.disabled,
+  .btn-orange:disabled {
+    color: #fff;
+    background-color: #ff9029;
+    border-color: #ff9029;
+  }
+  
+  .btn-orange:not(:disabled):not(.disabled):active,
+  .btn-orange:not(:disabled):not(.disabled).active,
+  .show > .btn-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #ff7b00;
+    border-color: #ff7b00;
+  }
+  
+  .btn-orange:not(:disabled):not(.disabled):active:focus,
+  .btn-orange:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #717171;
+  }
+
+  /**/
+  .btn-green {
+    color: rgb(90, 90, 90);
+    font-weight: 700;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-green:hover {
+    color: #fff;
+    background-color: #439b48;
+    border-color: #439b48;
+  }
+  
+  .btn-green:focus,
+  .btn-green.focus {
+    color: #fff;
+    background-color: #439b48;
+    border-color: #439b48;
+    box-shadow: 0 0 0 0.2rem #439b48;
+  }
+  
+  .btn-green.disabled,
+  .btn-green:disabled {
+    color: #fff;
+    background-color: #99d39c;
+    border-color: #99d39c;
+  }
+  
+  .btn-green:not(:disabled):not(.disabled):active,
+  .btn-green:not(:disabled):not(.disabled).active,
+  .show > .btn-green.dropdown-toggle {
+    color: #fff;
+    background-color: #439b48;
+    border-color: #439b48;
+  }
+  
+  .btn-green:not(:disabled):not(.disabled):active:focus,
+  .btn-green:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-green.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #717171;
+  }
+  
+  .btn-green input[type="radio"] {
+	display: none;
+}
+
+  .bg-orange{
+    background-color: #ffae61; 
+  }
+
+  .option-white{
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow:1px 1px 6px 0px #d6a77a;
+      color: rgb(41, 41, 41);
+      font-weight: 700;
+      background-color: white;
+  }
+
+  .option-green{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:1px 1px 6px 0px #d6a77a;
+    color: rgb(235, 235, 235);
+    font-weight: 700;
+    background-color: #439b48;
+}

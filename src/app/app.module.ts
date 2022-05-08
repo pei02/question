@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { TestTwoComponent } from './test-two/test-two.component';
+import { QuestionDbTwoComponent } from './question-db-two/question-db-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    HomeComponent
+    HomeComponent,
+    TestTwoComponent,
+    QuestionDbTwoComponent
   ],
   imports: [
     BrowserModule,

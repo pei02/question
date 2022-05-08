@@ -684,7 +684,7 @@ export const TFQ =[
         ]
     },
     {
-        "question": "品管圖是企業由上而下推廣的品質活動",
+        "question": "品管圈是企業由上而下推廣的品質活動",
         "ans": "false",
         "options": [
             {
