@@ -7,6 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { TestTwoComponent } from './test-two/test-two.component';
 import { QuestionDbTwoComponent } from './question-db-two/question-db-two.component';
+import { TestTwoTfqComponent } from './test-two-tfq/test-two-tfq.component';
+import { TestTwoMcqComponent } from './test-two-mcq/test-two-mcq.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { QuestionDbTwoComponent } from './question-db-two/question-db-two.compon
     TestComponent,
     HomeComponent,
     TestTwoComponent,
-    QuestionDbTwoComponent
+    QuestionDbTwoComponent,
+    TestTwoTfqComponent,
+    TestTwoMcqComponent
   ],
   imports: [
     BrowserModule,

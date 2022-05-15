@@ -1,49 +1,35 @@
 import { Component, OnInit } from '@angular/core';
-import { TFQ } from './tfq.const';
-import { MCQ } from './mcq.const';
+import { TFQ } from '../test-two/tfq.const';
 
 @Component({
-  selector: 'app-test-two',
-  templateUrl: './test-two.component.html',
-  styleUrls: ['./test-two.component.css']
+  selector: 'app-test-two-tfq',
+  templateUrl: './test-two-tfq.component.html',
+  styleUrls: ['./test-two-tfq.component.css']
 })
-export class TestTwoComponent implements OnInit {
+export class TestTwoTfqComponent implements OnInit {
 
-  TFQ = TFQ.sort(() => Math.random() - 0.5).slice(0,10);
-  MCQ = MCQ.sort(() => Math.random() - 0.5).slice(0,15);
-  TFQ_U: any = new Array(10).fill('');
+  TFQ = TFQ.sort(() => Math.random() - 0.5).slice(0,50);
+  TFQ_U: any = new Array(50).fill('');
   TFQ_S: any = [];
-  MCANS_U: any = new Array(15).fill('');
-  MCANS_S: any = [];
-  MC_Mistake: any = [];
   TF_Mistake: any = [];
   scores: number = 0;
   send:boolean=false;
   link:any;
-
   constructor() { }
 
   ngOnInit(): void {
-    this.MCQ.forEach(x => {
-      this.MCANS_S.push(x.ans)
-    })
     this.TFQ.forEach(y=>{
       this.TFQ_S.push(y.ans)
     })
+    console.log(this.TFQ_U)
   }
-  submit_ans() {
 
-    for (let ans = 0; ans < this.MCANS_S.length; ans++) {
-      this.MC_Mistake[ans] = this.MCANS_S[ans] == this.MCANS_U[ans] ? true : false;
-      if(this.MC_Mistake[ans]==true){
-        this.scores+=4;
-      }
-    }
+  submit_ans() {
 
     for (let ans = 0; ans < this.TFQ_S.length; ans++) {
       this.TF_Mistake[ans] = this.TFQ_S[ans] == this.TFQ_U[ans] ? true : false;
       if(this.TF_Mistake[ans]==true){
-        this.scores+=4;
+        this.scores+=2;
       }
     }
     
@@ -70,5 +56,4 @@ export class TestTwoComponent implements OnInit {
       behavior: "smooth"
     });
   }
-
 }

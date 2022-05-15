@@ -1,0 +1,100 @@
+.btn-green {
+    color: rgb(90, 90, 90);
+    font-weight: 700;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-green:hover {
+    color: #fff;
+    background-color: #439b48;
+    border-color: #439b48;
+  }
+  
+  .btn-green:focus,
+  .btn-green.focus {
+    color: #fff;
+    background-color: #439b48;
+    border-color: #439b48;
+    box-shadow: 0 0 0 0.2rem #439b48;
+  }
+  
+  .btn-green.disabled,
+  .btn-green:disabled {
+    color: #fff;
+    background-color: #99d39c;
+    border-color: #99d39c;
+  }
+  
+  .btn-green:not(:disabled):not(.disabled):active,
+  .btn-green:not(:disabled):not(.disabled).active,
+  .show > .btn-green.dropdown-toggle {
+    color: #fff;
+    background-color: #439b48;
+    border-color: #439b48;
+  }
+  
+  .btn-green:not(:disabled):not(.disabled):active:focus,
+  .btn-green:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-green.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #717171;
+  }
+  
+  .btn-green input[type="radio"] {
+	display: none;
+}
+
+/**/
+.btn-red {
+    color: rgb(90, 90, 90);
+    font-weight: 700;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-red:hover {
+    color: #fff;
+    background-color: #cf3939;
+    border-color: #cf3939;
+  }
+  
+  .btn-red:focus,
+  .btn-red.focus {
+    color: #fff;
+    background-color: #cf3939;
+    border-color: #cf3939;
+    box-shadow: 0 0 0 0.2rem #cf3939;
+  }
+  
+  .btn-red.disabled,
+  .btn-red:disabled {
+    color: #fff;
+    background-color: #cf6b6b;
+    border-color: #cf6b6b;
+  }
+  
+  .btn-red:not(:disabled):not(.disabled):active,
+  .btn-red:not(:disabled):not(.disabled).active,
+  .show > .btn-red.dropdown-toggle {
+    color: #fff;
+    background-color: #cf3939;
+    border-color: #cf3939;
+  }
+  
+  .btn-red:not(:disabled):not(.disabled):active:focus,
+  .btn-red:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-red.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #717171;
+  }
+  
+  .btn-red input[type="radio"] {
+	display: none;
+}
+
+.bg-green{
+    background-color: rgb(165, 206, 162);
+}
+
+.bg-red{
+    background-color: rgb(230, 180, 180);
+}
