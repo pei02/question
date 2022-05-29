@@ -1,0 +1,12 @@
+.menu_bg{
+    background-color:rgba(0, 0, 0, 0.63);
+    color: white;
+}
+.menu_a_bg{
+    background-color: transparent;
+}
+.menu_a_bg:hover,
+.menu_a_bg:active,
+.menu_a_bg:focus{
+    background-color: #b85900;
+}
