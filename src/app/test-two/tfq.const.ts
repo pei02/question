@@ -243,7 +243,7 @@ export const TFQ = [
       }
     ]
   }, {
-    "question": "在PSN處理介面支管制圖中綠色為異音點。",
+    "question": "在PSN處理介面支管制圖中綠色為異因點。",
     "ans": "false",
     "options": [
       {
@@ -1553,6 +1553,358 @@ export const TFQ = [
     ]
   }, {
     "question": "Bonding Diagram會秀device name資訊",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "Bonding Diagram圖號可以找出Inner圖面的圖號。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "應力(force)是用來判斷物件是否會破壞的一個指標(index)",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "串音干擾(cross-talk)是描述相鄰封裝導線之間的互相干擾現象。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "一個失效模式的不同原因，可能因為發生機率或檢查方式不同而有不同的RPN。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "歐傑/化學分析電子儀(AES/XPS)'可以偵測的表面元素比'能量分散X-Ray光譜分析儀(EDX)'可偵測的表面元素愈準確。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "CP為精密度為比較製程分散度與公差範圍，因此CP越小越好。",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "DFMEA始於製程流程圖，PFMEA始於方塊圖。",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "應力數值模擬之主要目的為得到物件之強度。",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "強度是物件抵抗被破壞的能力，物件承受之應力大於強度時就會產生破壞。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "封裝良率較測試良率難計算是因為必須剔除Die上殘留的缺點量。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "cross-talk是描述兩條相鄰封裝導線之間的互相干擾現象。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "QA的異常管控不包括e-QDN&e-MRB",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "e-QDN發出之後，會hold住當批及前兩批及後兩批",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "台灣專利法規定，職務上之發明其專利權歸僱用人所有",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "shall PPAP be approved by customer prior to mass production?(量產前，PPAP須先取得客戶的核准?)",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "shall submit PPAP for all new devices?(是否所有新產品都須提交PPAP?)",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "SPC是一種可以幫助我們了解製程變異的一種工具?",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "應力的來源包含製程、使用環境、可靠度測試...等。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "所有寄生參數會隨著長度增加而增加，線路越短，其RLC參數越小;反之，線路越長，其RLC參數越大。",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "訊號傳輸通道的阻抗不匹配，並不會造成電性效能的額外損耗，所以阻抗匹配並不重要",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "SPC系統預設的chart criteria項目為'PLANT/SPEC/SS'",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "Ca為衡量製程平均值與規格為中心值偏差的程度，因此Ca越大越好",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "FMEA中RPN為Serverity、Occurrence與Detection三項總和而非乘積",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "實驗設計方法中的「田口實驗計畫方法」，其S/N比越小越好",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "FMEA是依據Control Plan衍伸的品質管控工具之一",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "OCAP是由PSN或各站品質缺點展開",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "脫層(Delamination)、矽晶片斷裂(Die crack)、錫球斷裂(Solder joint facturing)、翹曲(Warpage)皆對封裝中常見的熱應力造成之破壞",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "下腳品就是垃圾，可以丟棄在垃圾桶即可",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "在FMEA當中，RPN風險係數(危險優先等級)最高是30。",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "每一個站點只可容許一個TCM",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "Control Plan的SPEC中'CC'為critical characteristics的縮寫",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "所有的化學實驗皆須做好安全防護並遵守工安規定",
     "ans": "true",
     "options": [
       {

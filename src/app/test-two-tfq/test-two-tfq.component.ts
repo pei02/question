@@ -21,7 +21,6 @@ export class TestTwoTfqComponent implements OnInit {
     this.TFQ.forEach(y=>{
       this.TFQ_S.push(y.ans)
     })
-    console.log(this.TFQ_U)
   }
 
   submit_ans() {
