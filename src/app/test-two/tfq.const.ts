@@ -1805,6 +1805,17 @@ export const TFQ = [
       }
     ]
   }, {
+    "question": "Ca為衡量製程平均值與規格為中心值偏差的程度，因此Ca越小越好",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  },{
     "question": "FMEA中RPN為Serverity、Occurrence與Detection三項總和而非乘積",
     "ans": "false",
     "options": [
@@ -1905,6 +1916,39 @@ export const TFQ = [
     ]
   }, {
     "question": "所有的化學實驗皆須做好安全防護並遵守工安規定",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "Failure Mode Effect Analysis 即失敗模式效應分析，其最終目的是升高RPN值",
+    "ans": "false",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "按OCAP流程處理完製程，需確認完成加嚴的Re-Sampling(重抽檢)沒異常後就可直接繼續生產",
+    "ans": "true",
+    "options": [
+      {
+        "description": "true"
+      },
+      {
+        "description": "false"
+      }
+    ]
+  }, {
+    "question": "一般而言，每個客戶零件編號都必須完成一個PSN",
     "ans": "true",
     "options": [
       {

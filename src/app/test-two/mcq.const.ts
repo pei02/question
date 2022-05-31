@@ -195,7 +195,7 @@ export const MCQ =  [
         ]
     },
   {
-        "question": "有一Gauge規格為10.00mm,試問需選用之良策工具為何？",
+        "question": "有一Gauge規格為10.00mm,試問需選用之量測工具為何？",
         "ans": "0~50mm,精度0.001mm",
         "options": [
             {
@@ -249,7 +249,7 @@ export const MCQ =  [
         ]
     },
   {
-        "question": "所調精密度是指？",
+        "question": "所謂精密度是指？",
         "ans": "Cp",
         "options": [
             {
@@ -1128,7 +1128,7 @@ export const MCQ =  [
         ]
     },
   {
-        "question": "以數據性質區分，管制圆可分為：",
+        "question": "以數據性質區分，管制圖可分為：",
         "ans": "兩大類",
         "options": [
             {
@@ -1138,7 +1138,7 @@ export const MCQ =  [
                 "description": "三大類"
             },
             {
-                "description": "四大复"
+                "description": "四大類"
             }
         ]
     },
@@ -1755,7 +1755,7 @@ export const MCQ =  [
         ]
     },
   {
-        "question": "下列關於RSM的敘迹，何者错誤？",
+        "question": "下列關於RSM的敘述，何者错誤？",
         "ans": "採用三次方的模型",
         "options": [
             {
@@ -2409,7 +2409,7 @@ export const MCQ =  [
         ]
     },
   {
-        "question": "以下何者非倉管部皆收下腳品的查驗重點？",
+        "question": "以下何者非倉管部接收下腳品的查驗重點？",
         "ans": "是否有放行單",
         "options": [
             {
@@ -2496,7 +2496,7 @@ export const MCQ =  [
         ]
     },
   {
-        "question": "若使用化學藥品儀除基板(substrate)上的綠漆(solder mark)，此触刻步骤為",
+        "question": "若使用化學藥品移除基板(substrate)上的綠漆(solder mark)，此蝕刻步骤為",
         "ans": "濕蝕刻",
         "options": [
             {
