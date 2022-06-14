@@ -9,6 +9,7 @@ import { TestTwoComponent } from './test-two/test-two.component';
 import { QuestionDbTwoComponent } from './question-db-two/question-db-two.component';
 import { TestTwoTfqComponent } from './test-two-tfq/test-two-tfq.component';
 import { TestTwoMcqComponent } from './test-two-mcq/test-two-mcq.component';
+import { QuestionDbOneComponent } from './question-db-one/question-db-one.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TestTwoMcqComponent } from './test-two-mcq/test-two-mcq.component';
     TestTwoComponent,
     QuestionDbTwoComponent,
     TestTwoTfqComponent,
-    TestTwoMcqComponent
+    TestTwoMcqComponent,
+    QuestionDbOneComponent
   ],
   imports: [
     BrowserModule,

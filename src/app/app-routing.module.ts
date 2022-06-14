@@ -6,6 +6,7 @@ import {TestTwoComponent} from './test-two/test-two.component';
 import {QuestionDbTwoComponent} from './question-db-two/question-db-two.component';
 import {TestTwoTfqComponent} from './test-two-tfq/test-two-tfq.component';
 import {TestTwoMcqComponent} from './test-two-mcq/test-two-mcq.component';
+import {QuestionDbOneComponent} from './question-db-one/question-db-one.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path: 'test_two',
     component: TestTwoComponent
+  },
+  {
+    path: 'question_db_one',
+    component: QuestionDbOneComponent
   },
   {
     path: 'question_db_two',

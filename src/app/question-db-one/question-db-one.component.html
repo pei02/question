@@ -1,0 +1,45 @@
+<h4 class="text-dark text-center font-weight-bolder">一階測驗題庫</h4>
+<div class="btn-group btn-group-toggle w-100 mt-2" data-toggle="buttons">
+    <label class="btn btn-orange active" (click)="question_type('TF')">
+        <input type="radio" value="TF"><strong>是非題</strong>
+    </label>
+    <label class="btn btn-orange" (click)="question_type('MC')">
+        <input type="radio" value="MC"><strong>選擇題</strong>
+    </label>
+</div>
+
+<div *ngIf="select=='TF'">
+    <div *ngFor="let tfq of TFQ;let num=index">
+        <div class="p-3 my-3 bg-orange">
+            <h6 class="font-weight-bolder text-justify" style="line-height: 24px;;word-break: break-all;">
+                <span class="text-success font-weight-bolder" *ngIf="tfq.ans=='true'" style="font-size: 20px;"><i
+                        class="fas fa-check"></i></span>
+                <span class="text-danger font-weight-bolder" *ngIf="tfq.ans=='false'" style="font-size: 20px;"><i
+                        class="fas fa-times"></i></span>
+                {{num+1}}.{{tfq.question}}
+            </h6>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="select=='MC'">
+    <div *ngFor="let mcq of MCQ;let num=index">
+        <div class="p-3 my-3 bg-orange">
+            <h6 class="font-weight-bolder text-justify" style="line-height: 24px;;word-break: break-all;">
+                {{num+1}}.{{mcq.question}}
+            </h6>
+            <div *ngFor="let option of mcq.options">
+                <div class="w-100 my-1" [ngClass]="option.description==mcq.ans?'option-green':'option-white'">{{option.description}}</div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div style="position:fixed;right: 5px;bottom: 20px;">
+    <a type="button" class="btn rounded-circle mb-2" style="background-color: rgb(248, 60, 3);color: white;"
+        routerLink="/"><i class="fas fa-home"></i></a><br>
+    <button type="button" class="btn rounded-circle" style="background-color: rgba(0, 0, 0, 0.363);color: white;"
+        (click)="scrollTotop()"><i class="fas fa-arrow-up"></i></button><br>
+    <button type="button" class="btn mt-2 rounded-circle" style="background-color: rgba(0, 0, 0, 0.363);color: white;"
+        (click)="scrollTobottom()"><i class="fas fa-arrow-down"></i></button>
+</div>
